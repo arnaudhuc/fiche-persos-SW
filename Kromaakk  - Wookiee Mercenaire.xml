@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <LastChanged>2020-04-02T17:03:23.22</LastChanged>
+  <LastChanged>2020-04-05T16:23:21.593</LastChanged>
   <NotPersisted>false</NotPersisted>
   <FileName>Char0.xml</FileName>
   <Name />
@@ -14,6 +14,7 @@
     <Build>Musclé</Build>
     <Hair>Brun</Hair>
     <Eyes>Brun</Eyes>
+    <Campaign> Un groupe insolite</Campaign>
     <Gender>Homme</Gender>
   </Description>
   <Characteristics>
@@ -33,7 +34,7 @@
     </CharCharacteristic>
     <CharCharacteristic>
       <Key>INT</Key>
-      <Name>Intélligence</Name>
+      <Name>Intelligence</Name>
       <Rank>
         <SpeciesRanks>2</SpeciesRanks>
       </Rank>
@@ -65,7 +66,7 @@
     <CharMotivation>
       <Key>0</Key>
       <Name>Ambition</Name>
-      <Notes>oui</Notes>
+      <Notes>Tu étais sur une affaire de chasseur de prime à la recherche d'un humain recherché par les Hutts, mais aussi par l'Empire et par d'autres organisations criminelles.</Notes>
       <MotiveKey>AMB</MotiveKey>
       <SpecMotiveKey>AMBEXPER</SpecMotiveKey>
     </CharMotivation>
@@ -381,6 +382,7 @@
   <Experience>
     <ExperienceRanks>
       <SpeciesRanks>90</SpeciesRanks>
+      <PurchasedRanks>10</PurchasedRanks>
     </ExperienceRanks>
     <UsedExperience>65</UsedExperience>
   </Experience>
@@ -407,7 +409,7 @@
     <SelectedOptions>
       <CharOption>
         <ChoiceKey>WOOKAB</ChoiceKey>
-        <OptionKey>WOOKABRAGE</OptionKey>
+        <OptionKey>WOOKABOP1</OptionKey>
       </CharOption>
     </SelectedOptions>
   </Species>
@@ -442,6 +444,13 @@
       <Held>true</Held>
       <Count>1</Count>
       <Shown>true</Shown>
+    </CharWeapon>
+    <CharWeapon>
+      <ItemKey>BOLA</ItemKey>
+      <Key>6aaca0a6-b40b-4c4d-b9c1-b465237cf234</Key>
+      <Equipped>true</Equipped>
+      <Held>true</Held>
+      <Count>1</Count>
     </CharWeapon>
     <CharWeapon>
       <ItemKey />
